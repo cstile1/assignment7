@@ -13,7 +13,7 @@ load_dotenv()
 
 # Environment Variables for Configuration
 QR_DIRECTORY = os.getenv('QR_CODE_DIR', 'qr_codes')  # Directory for saving QR code
-FILL_COLOR = os.getenv('FILL_COLOR', 'red')          # Fill color for the QR code
+FILL_COLOR = os.getenv('FILL_COLOR', 'black')          # Fill color for the QR code
 BACK_COLOR = os.getenv('BACK_COLOR', 'white')        # Background color for the QR code
 
 def setup_logging():
