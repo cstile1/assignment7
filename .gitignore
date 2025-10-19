@@ -1,6 +1,12 @@
+# Ignore everything in qr_codes/
+qr_codes/*
+
+# But keep the two final QR codes
+!qr_codes/QRCode_20251018221439.png
+!qr_codes/QRCode_20251018221626.png
+
 __pycache__/
 *.pyc
 venv/
 .vscode/
 logs/
-qr_codes/
